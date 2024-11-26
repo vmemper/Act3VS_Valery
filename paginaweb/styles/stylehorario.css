@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: white ;
+}
+header{
+    height: 8vh;
+    background-color: rgb(245, 255, 240);
+}
+header h1{
+   color: green;
+}
+nav{
+    background-color: rgb(41, 185, 41);
+    display: flex;
+    align-items: center;
+    height: 4vh;
+    color: white;
+}
+nav h4{
+    padding-left: 2vh;
+    text-decoration: underline white;
+    
+}
+a{
+    color: white;
+}
+a:hover {
+    color: black; /* Cambia el color al pasar el ratón */
+    text-decoration: overline;
+}
+    main{
+    height: 80vh;
+    display: flex;
+    align-items:center ;
+    justify-content: center;
+}
+main section{
+    width: 99vw;
+    height: 78vh;
+    font-weight: 700;
+}
+table, tr, th, td{
+    border-radius:6%;
+    border: 1px black solid;
+    padding: 34px;
+    margin: auto;
+}
+table{
+    width: 35vh;
+    height:40vh;
+    margin-top: 3vh;
+}
+th{
+    border-color: rgb(0, 0, 0);
+    border-width: 2px
+}
+td{
+    border-color: rgb(6, 5, 32);
+    border-width: 1px;
+    padding: 10px;
+    width: 16vw;
+}
+
+/* Clases para determinar el color de las celdas según la asignatura */
+.horario{
+    background-color: black; 
+    color: white;
+    padding-left: 25cap;
+    letter-spacing: 9vw;
+}
+
+.dias{
+    background-color: white;
+    color: black;
+    text-align: center;
+    height: 0.1vh;
+
+
+}
+.hora{
+    background-color: white;
+    color: black;
+    text-align: center;
+    font-weight: bolder;
+}   
+.recreo{
+    letter-spacing: 9vw;
+    text-align: center; 
+    background-color: rgb(238, 221, 68);
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+}
+.colorprog{
+    text-shadow: 1px 1px rgba(0, 255, 17, 0.793);
+    text-transform: uppercase;
+    text-align: center;
+    background-color: rgba(176, 247, 109, 0.678);
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+}
+.colorllmm{
+    text-shadow: 1px 1px rgba(0, 255, 17, 0.793);
+    text-transform: uppercase;
+    text-align: center;
+    background-color: rgba(10, 165, 69, 0.637);
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+}
+.colored{
+    text-shadow: 1px 1px rgba(255, 0, 0, 0.793);
+    text-transform: uppercase;
+    text-align: center;
+    background-color: rgb(255, 166, 0);
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+}
+.colorbbdd{
+    text-shadow: 1px 1px rgba(255, 179, 0, 0.864);
+    text-transform: uppercase;
+    text-align: center;
+    background-color: rgb(255, 123, 0);
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+}
+.colorsistinf{
+    text-shadow: 1px 1px rgba(255, 221, 0, 0.793);
+    text-transform: uppercase;
+    text-align: center;
+    background-color: rgb(238, 255, 160);
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+}
+.colorsost{
+    text-shadow: 1px 1px rgba(0, 255, 17, 0.793);
+    text-transform: uppercase;
+    text-align: center;
+    background-color: rgb(122, 247, 49);
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+}
+.colordigi{
+    text-shadow: 1px 1px rgb(0, 255, 17);
+    text-transform: uppercase;
+    text-align: center;
+    background-color: #44b924ef;
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+}
+.colorfol{
+    text-shadow: 1px 1px rgba(255, 136, 0, 0.793);
+    text-transform: uppercase;
+    text-align: center;
+    background-color:rgba(255, 255, 0, 0.808);
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+}
+footer{
+    background-color: black;
+    color: white;
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
